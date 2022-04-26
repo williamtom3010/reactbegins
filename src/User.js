@@ -1,14 +1,11 @@
-
-function User()
+import React from 'react'
+export default class User extends React.Component
 {
-  return(
-    <div>
-        <h1>William </h1>
-        <h2>Tom</h2>
-        <h3>Jacob</h3>
-    </div>  
-    
-  )
-}
+    render()
+    {
+        return (
+            <h1>Hello William</h1>
+        )
+    }
 
-export default User;
+}
